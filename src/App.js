@@ -11,7 +11,7 @@ const theme = createTheme({
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#dc004e', // A complementary pink color
+      main: '#dc004e',
       light: '#ff4081',
       dark: '#9a0036',
       contrastText: '#ffffff',
@@ -63,7 +63,7 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          textTransform: 'none', // Prevents all-caps buttons
+          textTransform: 'none',
         },
       },
     },
